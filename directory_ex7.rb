@@ -41,7 +41,7 @@ def input_students
   cohort = get_cohort
 
   while !name.empty? do
-    puts "Are you sure you happy the detail are correct? Save yes (y) or no (n)?"
+    puts "Are you sure you happy the details are correct? Save yes (y) or no (n)?"
     choice = gets.chomp
     if choice == "y"
       students << {name: name, cohort: cohort}
